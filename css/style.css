@@ -74,3 +74,11 @@ label {
     width: 448px;
     height: 43px;
 }
+.inline {
+    display: inline;
+}
+.row img {
+    height: min-content;
+    margin-top: 14px;
+    
+}
