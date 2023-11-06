@@ -40,6 +40,9 @@ label {
     font-size: 12px;
     font-weight: bold;
     font-family: "Nunito Sans", apple-system, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    transform: scaleY(.9);
 }
 .accede1 {
     color: rgb(95, 10, 255);
@@ -49,7 +52,6 @@ label {
     padding: 0 20px;
     text-decoration: none;
     font-family: "Nunito Sans", apple-system, sans-serif;
-    border-bottom: solid rgb(158, 136, 252) 3px;
 }
 .accede2 {
     color: rgb(158, 136, 252);
@@ -77,8 +79,28 @@ label {
 .inline {
     display: inline;
 }
-.row img {
+.corregir {
     height: min-content;
-    margin-top: 14px;
-    
+    padding-top: 15px;
+}
+.espaciar {
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 20px;
+}
+.borde {
+    padding-bottom: 5px;
+    border-bottom: solid rgb(158, 136, 252) 3px;
+}
+.olvidado {
+    font-size: 11px;
+    text-decoration: none;
+    color: rgba(119, 53, 221, 0.75);
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    transform: scaleY(.9);
+    letter-spacing: normal;
+}
+.vm-3 {
+    margin: 20px 0;
 }
