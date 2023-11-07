@@ -27,13 +27,28 @@ body {
 }
 .unete {
     font-family:  sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     font-stretch: extra-condensed;
+    letter-spacing: -3px;
+    margin-top: 70px;
+    line-height: 140%;
+}
+.bienvenido {
+    font-family:  sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-stretch: extra-condensed;
+    letter-spacing: -3px;
+    line-height: 80px;
 }
 .comparte {
     font-size: 16px;
     font-family: "Nunito Sans", sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    text-shadow: black -0.5px 0px, black 0px 0.5px, black 0.5px 0px, black 0px -0.5px;
+    
 }
 label {
     display: block;
@@ -49,7 +64,7 @@ label {
     font-size: 16px;
     height: 20px;
     text-align: center;
-    padding: 0 20px;
+    padding: 15px 20px;
     text-decoration: none;
     font-family: "Nunito Sans", apple-system, sans-serif;
 }
@@ -58,7 +73,7 @@ label {
     font-size: 16px;
     height: 20px;
     text-align: center;
-    padding: 0 20px;
+    padding: 15px 20px;
     text-decoration: none;
     font-family: "Nunito Sans", apple-system, sans-serif;
 }
@@ -88,9 +103,11 @@ label {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.75);
     line-height: 20px;
+    font-stretch: expanded;
 }
 .borde {
     padding-bottom: 5px;
+    margin-top: 15px;
     border-bottom: solid rgb(158, 136, 252) 3px;
 }
 .olvidado {
@@ -100,7 +117,39 @@ label {
     font-family: "Nunito Sans", apple-system, sans-serif;
     transform: scaleY(.9);
     letter-spacing: normal;
+    line-height: 50px;
+    
 }
-.vm-3 {
-    margin: 20px 0;
+.terminos {
+    font-size: 11px;
+    text-decoration: none;
+    color: rgba(119, 53, 221, 0.75);
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    transform: scaleY(.9);
+    letter-spacing: normal;
+    line-height: 25px;
+    
+}
+.letrachica {
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    transform: scaleY(.9);
+    letter-spacing: normal;
+}
+.btn {
+    background-color: rgb(95, 10, 255);
+    border-color: rgb(95, 10, 255);
+    color: white;
+    font-size: 16px;
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    font-weight: 500;
+    width: 240px;
+    height: 54px;
+    cursor: pointer;
+}
+.flexright {
+    justify-self: end;
+    margin-left: 14%;
+    margin-top: 4%;
 }
