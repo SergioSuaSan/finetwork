@@ -8,7 +8,7 @@ body {
     margin: 0;
     height: 100%;
     background-image: url(../img/chica.jpg);
-    background-size: cover;
+    background-size: 90%;
 }
 .row {
     display: flex;
@@ -92,6 +92,13 @@ label {
     height: 43px;
     padding-left: 15px;
 }
+.itt::placeholder {
+    font-family: "Nunito Sans", apple-system, sans-serif;
+    width: 448px;
+    height: 43px;
+    font-weight: 50;
+    color: rgba(0, 0, 0, 0.4);
+}
 .inline {
     display: inline;
 }
@@ -109,7 +116,7 @@ label {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.75);
     line-height: 20px;
-    font-stretch: expanded;
+    font-stretch: extra-expanded;
 }
 .borde {
     padding-bottom: 5px;
@@ -117,7 +124,7 @@ label {
     border-bottom: solid rgb(158, 136, 252) 3px;
 }
 .olvidado {
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
     color: rgba(119, 53, 221, 0.75);
     font-family: "Nunito Sans", apple-system, sans-serif;
@@ -127,7 +134,7 @@ label {
     
 }
 .terminos {
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
     color: rgba(119, 53, 221, 0.75);
     font-family: "Nunito Sans", apple-system, sans-serif;
@@ -137,11 +144,12 @@ label {
     
 }
 .letrachica {
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
     font-family: "Nunito Sans", apple-system, sans-serif;
     transform: scaleY(.9);
     letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.7);
 }
 .btn {
     background-color: rgb(95, 10, 255);
